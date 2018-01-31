@@ -1,0 +1,21 @@
+.container {
+	display: grid;
+	grid-template-columns: 100px 200px;
+	height: 90vh;
+	grid-gap: 20px;
+	margin: 3em;
+}
+
+.item {
+	background: turquoise;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.item > h2 {
+	font-family: helvetica;
+	font-weight: 700;
+	color: #fff;
+	align-self: center;
+}
